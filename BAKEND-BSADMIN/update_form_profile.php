@@ -4,18 +4,18 @@
 <?php 
 include "connection.php";
 
-// menyimpan sementara id_
-// 
+// menyimpan sementara id_profile dari tombol UPDATE tabel_profile.php sebelum dieksekusi ke bawah berikut ini
+// $_GET['id_profile']; yg menerima id_profile dr tombol UPDATE tabel_profile.php
 $id_profile = $_GET['id_profile'];
 
-// menampilkan
+// menampilkan data profile yg didpat atau dikirim dari tombol update tabel_profile.php diatas 
 $select_id = mysqli_query($koneksi, "SELECT * FROM profile WHERE id_profile='$id_profile'");
 
-//
-//
+// fungsi utk menampilkan isi tabel menggunakan mysqli_fetch_object (->)
+// selanjutnya menuju form bawah dengan menggunakan value untuk inputan setiap data
 $profile = mysqli_fetch_object($select_id);
 
-//
+//dibawah ini adalah isi asli dari form.profile
 ?>
 
 

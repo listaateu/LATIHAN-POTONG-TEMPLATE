@@ -5,8 +5,8 @@
 include "connection.php";
 
 // $vnama penyimpanan sedangkan $_POST menerima inputan name="nama" dr form_education.php
-$vnama=$_POST['nama'];
-$vicon=$_POST['icon'];
+$vnama = $_POST['nama'];
+$vicon = $_POST['icon'];
 
 
 // mysqli_query adlh perintah utk menyatukan koneksi database dg query tabel.
