@@ -1,17 +1,20 @@
 <?php
 include "connection.php";
 
-$id_language = $_GET['id_language'];
+$id_login = $_GET['id_login'];
 
-$select_id = mysqli_query($koneksi, "SELECT * FROM language WHERE id_language='$id_language'");
+$select_id = mysqli_query($koneksi, "SELECT * FROM login WHERE
+id_login = '$id_login'");
 
-$language = mysqli_fetch_object($select_id);
+$m = mysqli_fetch_object($select_id);
 
 ?>
+
 
 <?php include "header.php" ?>
 
 <body id="page-top">
+
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -35,37 +38,38 @@ $language = mysqli_fetch_object($select_id);
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Update Language</h1>
+                        <h1 class="h3 mb-0 text-gray-800">ADD</h1>
+                       <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
                     </div>
 
-                    <!-- Content Start -->
-                    <form action="action_update_language.php" method="post" enctype="multipart/form-data">
+                    <!-- content start -->
+                     <form action="action_update_login.php" method="post" >
                         <div class="mb-3">
-                            <label for="language" class="form-label"> Language
-                            </label>
-                            <input type="text" class="form-control" id="language" name="bahasa"
-                            value="<?php echo $language->bahasa ?>">
+                            <label for="email" class="form_label"> email </label>
+                            <input type="text" class="form-control" id="email" name="email"
+                            value="<?php echo $m->email ?>">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form_label"> password </label>
+                            <input type="text" class="form-control" id="password" name="password"
+                             value="<?php echo $m->password ?>">
                         </div>
 
-                        <div class="mb-3">
-                            <label for="flag" class="form-label"> Flag
-                            </label>
-                            <input type="file" class="form-control" id="flag" name="flag"
-                            value="<?php echo $language->flag ?>">
-                        </div>
-
-                        <input type="hidden" name="id_language" value="<?php echo $language->id_language?>">
+                        <input type="hidden" value="<?php echo $m->id_login ?>"
+                        name="id_login">
+                        
 
                         <button type="submit" class="btn btn-primary">Submit</button>
 
-                         <button type="reset" class="btn btn-primary">Reset</button>
-                        
-                    </form>
+                        <button type="reset" class="btn btn-primary">Reset</button>
+                     </form>
+
 
                     <!-- content end -->
 
-                </div>
-                <!-- /.container-fluid -->
+                    </div>
+                    <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->

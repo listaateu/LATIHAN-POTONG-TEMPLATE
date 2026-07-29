@@ -1,7 +1,7 @@
 <?php
 include "connection.php";
 // kedua buat perintah sql/query ke database utk menampilkan data
-$select_sidebar_photo = mysqli_query($koneksi, "SELECT * FROM sidebar_photo");
+$select_sidebar_photo = mysqli_query($koneksi, "SELECT * FROM sidebar_photo ORDER BY id_sidebar_photo DESC");
 // ketiga buat perulangan di dalam <tbody> di bawah ini
 
 ?>

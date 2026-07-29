@@ -69,7 +69,7 @@ form_portfolio.php form_skill.php, form_education.php, form_reference.php, denga
                             <textarea name="address" id="address" cols="20" class="form-control" rows="5"></textarea>
                         </div>
                         <div class="mb-3">
-                            <label for="linkedin" class="form-label"> Linkedin
+                            <label for="linkedin" class="form-label"> Sosmed
                             </label>
                             <input type="linkedin" class="form-control" id="linkedin" name="linkedin">
                         </div> 
@@ -80,6 +80,8 @@ form_portfolio.php form_skill.php, form_education.php, form_reference.php, denga
                         </div>
 
                         <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+
+                         <button type="reset" class="btn btn-primary">Reset</button>
 
                       </form>
 

@@ -1,10 +1,23 @@
+<?php
+include "connection.php";
+
+$id_reference = $_GET['id_reference'];
+
+$select_id = mysqli_query($koneksi, "SELECT * FROM reference WHERE
+id_reference = '$id_reference'");
+
+$reference = mysqli_fetch_object($select_id);
+
+?>
+
+
 <?php include "header.php" ?>
 
 <body id="page-top">
 
 
     <!-- Page Wrapper -->
-    <div id="wrapper">
+    <div id="wrapper">5
 
         <!-- Sidebar -->
         <?php include "sidebar.php" ?>
@@ -31,23 +44,36 @@
                     </div>
 
                     <!-- content start -->
-                     <form action="action_insert_education.php" method="post" >
+                     <form action="action_update_reference.php" method="post" >
                         <div class="mb-3">
-                            <label for="jurusan" class="form_label"> Major </label>
-                            <input type="text" class="form-control" id="jurusan" name="nama_jurusan">
+                            <label for="nama" class="form_label"> Nama </label>
+                            <input type="text" class="form-control" id="nama" name="nama"
+                            value="<?php echo $reference->nama ?>">
                         </div>
                         <div class="mb-3">
-                            <label for="belajar" class="form_label"> Year </label>
-                            <input type="text" class="form-control" id="belajar" name="tahun_belajar">
+                            <label for="jbatan" class="form_label"> Designation </label>
+                            <input type="text" class="form-control" id="jabatan" name="jabatan"
+                            value="<?php echo $reference->jabatan ?>">
                         </div>
                         <div class="mb-3">
-                            <label for="tempat" class="form_label"> Place </label>
-                            <input type="text" class="form-control" id="tempat" name="tempat_belajar">
+    <label for="company" class="form_label"> Company </label>
+    <input type="text" class="form-control" id="company" name="perusahaan"
+    value="<?php echo $reference->perusahaan ?>">
+</div>
+                        <div class="mb-3">
+                            <label for="phone" class="form_label"> Phone </label>
+                            <input type="text" class="form-control" id="phone" name="phone"
+                            value="<?php echo $reference->phone ?>">
                         </div>
                         <div class="mb-3">
-                            <label for="deskripsi" class="form_label"> Description </label>
-                            <textarea name="deskripsi" id="deskripsi" cols="30" class="form-control" rows="10"></textarea>
+                            <label for="email" class="form_label"> Email Address </label>
+                            <input type="text" class="form-control" id="email" name="email" aria-describedy="emailHelp"
+                            value="<?php echo $reference->email ?>">
+                            <div id="emailHelp" class="form-text"></div>
                         </div>
+
+                        
+                        <input type="hidden" name="id_reference" value="<?php echo $reference->id_reference?>">
 
                         <button type="submit" class="btn btn-primary">Submit</button>
 

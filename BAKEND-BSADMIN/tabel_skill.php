@@ -2,10 +2,12 @@
 
 include "connection.php";
 
-$select_job = mysqli_query(
+$select_skill = mysqli_query(
     $koneksi,
-    "SELECT * FROM job ORDER BY id_job DESC");
+    "SELECT * FROM skill ORDER BY id_skill DESC");
     ?>
+
+    
     
     <?php include "header.php" ?>
 
@@ -34,37 +36,32 @@ $select_job = mysqli_query(
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Job</h1>
+                        <h1 class="h3 mb-0 text-gray-800">skill</h1>
 
                     </div>
-                    <a href="form_job.php" class="btn btn-info mb-2">Add</a>
+                    <a href="form_skill.php" class="btn btn-info mb-2">Add</a>
 
                     <!-- content start -->
                      <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th scope="col">Profession</th>
-                                <th scope="col">Year</th>
-                                <th scope="col">Place</th>
-                                <th scope="col">Responsibilities</th>
-
+                                <th scope="col">skill</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody>
 
                         <?php
-                        while ($tampil = mysqli_fetch_object ($select_job)) :
-                        ?>
+                        while ($tampil = mysqli_fetch_object ($select_skill)) :?>
                           <tr>
                             <th scope="row"><?php echo
-                            $tampil->nama_pekerjaan; ?></th>
-                            <td><?php echo $tampil->tahun_bekerja; ?></th>
-                            <td><?php echo $tampil->tempat_bekerja; ?></th>
-                            <td><?php echo $tampil->deskripsi; ?></th>
+                            $tampil->nama_skill; ?></th>
+                            
 
+                        
+                          
                            <td>
-                           <a href="delete_skill.php?id_skill=<?php
+                              <a href="delete_skill.php?id_skill=<?php
                                 echo $tampil->id_skill;?>" class="btn
                                 btn-danger" onclick="return confirm
                                 ('confirm to delete?')">DELETE</a>
@@ -74,7 +71,7 @@ $select_job = mysqli_query(
                                 btn-success">UPDATE</a>
                            </td>
                            </tr>
-        <?php endwhile ?>
+        <?php endwhile; ?>
                         </tbody>
                         </table>
 

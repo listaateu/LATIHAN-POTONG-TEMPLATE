@@ -1,0 +1,13 @@
+<?php
+include "connection.php";
+
+$vnama = $_POST['nama'];
+$vicon = $_POST['icon'];
+
+$sql_insert = mysqli_query($koneksi, "INSERT INTO tools(nama, icon)
+    VALUES ('$vnama', '$vicon')
+");
+
+header("Location:tabel_tools.php");
+exit;
+?>

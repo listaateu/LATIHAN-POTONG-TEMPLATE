@@ -2,9 +2,9 @@
 
 include "connection.php";
 
-$select_job = mysqli_query(
+$select_login = mysqli_query(
     $koneksi,
-    "SELECT * FROM job ORDER BY id_job DESC");
+    "SELECT * FROM login ORDER BY id_login DESC");
     ?>
     
     <?php include "header.php" ?>
@@ -34,47 +34,45 @@ $select_job = mysqli_query(
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Job</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Login</h1>
 
                     </div>
-                    <a href="form_job.php" class="btn btn-info mb-2">Add</a>
+                    <a href="form_login.php" class="btn btn-info mb-2">Add</a>
 
                     <!-- content start -->
                      <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th scope="col">Profession</th>
-                                <th scope="col">Year</th>
-                                <th scope="col">Place</th>
-                                <th scope="col">Responsibilities</th>
-
+                                <th scope="col">email</th>
+                                <th scope="col">password</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody>
 
                         <?php
-                        while ($tampil = mysqli_fetch_object ($select_job)) :
-                        ?>
+                        while ($tampil = mysqli_fetch_object ($select_login)) :?>
                           <tr>
                             <th scope="row"><?php echo
-                            $tampil->nama_pekerjaan; ?></th>
-                            <td><?php echo $tampil->tahun_bekerja; ?></th>
-                            <td><?php echo $tampil->tempat_bekerja; ?></th>
-                            <td><?php echo $tampil->deskripsi; ?></th>
+                            $tampil->email; ?></th>
+                            <td><?php echo $tampil->password; ?></td>
 
+                        </i>
+                          
                            <td>
-                           <a href="delete_skill.php?id_skill=<?php
-                                echo $tampil->id_skill;?>" class="btn
-                                btn-danger" onclick="return confirm
-                                ('confirm to delete?')">DELETE</a>
-                                
-                                <a href="update_form_skill.php?id_skill=<?php
-                                echo $tampil->id_skill;?>" class="btn
-                                btn-success">UPDATE</a>
+                           <a href="delete_login.php?id_login=<?php echo $tampil->id_login; ?>"
+                                           class="btn btn-danger btn-sm"
+                                           onclick="return confirm('Yakin ingin menghapus data ini?')">
+                                            DELETE</a>
+                                      
+                                        
+                                    <a href="update_form_login.php?id_login=<?php echo $tampil->id_login; ?>"
+                                           class="btn btn-success btn-sm">
+                                            UPDATE
+                                        </a>
                            </td>
                            </tr>
-        <?php endwhile ?>
+        <?php endwhile; ?>
                         </tbody>
                         </table>
 

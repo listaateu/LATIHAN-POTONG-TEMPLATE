@@ -66,6 +66,8 @@ form_portfolio.php form_skill.php, form_education.php, form_reference.php, denga
 
                         <button type="submit" class="btn btn-primary">Submit</button>
 
+                         <button type="reset" class="btn btn-primary">Reset</button>
+
                       </form>
 
                     <!-- content end -->

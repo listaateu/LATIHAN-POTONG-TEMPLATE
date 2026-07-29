@@ -38,46 +38,53 @@ $select_portfolio = mysqli_query($koneksi,"SELECT * FROM portfolio ORDER BY id_p
                             <tr>
                                 <th scope="col">Portfolio Title</th>
                                 <th scope="col">Image</th>
-                                <th scope="col">Url</th>
+                                <th scope="col">Link</th>
                                 <th scope="col">Description</th>
                                 <th scope="col">Category</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
 
-                        <tbody>
-                            <!-- perulangan -->
+                       <tbody>
+    <?php while ($tampil = mysqli_fetch_object($select_portfolio)) : ?>
+        <tr>
+            <th scope="row">
+                <?php echo $tampil->judul_portfolio; ?>
+            </th>
 
-                        <?php
-                        // mysqli_fetch_object mnggnkn <?php $tampil->nama;
-                        // mysqli_fetch_array mnggnkn <?php $tampil
-                        while ($tampil = mysqli_fetch_object($select_portfolio)) :
-                        ?>
+            <td>
+                <img src="foto/<?php echo $tampil->img; ?>" width="150" height="300" style="object-fit: cover;">
+            </td>
 
-                        <tr>
-                            <th scope="row"><?php echo $tampil->judul_portfolio; ?></th>
-                            
+            <td>
+                <a href="<?php echo $tampil->link; ?>" target="_blank">
+                    <?php echo $tampil->link; ?>
+                </a>
+            </td>
 
-                            <td>
-                                 <img src="foto/<?php echo $tampil->img; ?>" width="500">
-                            </td>
+            <td>
+                <?php echo $tampil->deskripsi; ?>
+            </td>
 
-     
+            <td>
+                <?php echo $tampil->jenis; ?>
+            </td>
 
-                            <td><?php echo $tampil->link; ?></td>
-                            <td><?php echo $tampil->deskripsi; ?></td>
-                            <td><?php echo $tampil->jenis; ?></td>
+            <td>
+                <a href="delete_portfolio.php?id_portfolio=<?php echo $tampil->id_portfolio; ?>" 
+                   class="btn btn-danger" 
+                   onclick="return confirm('Confirm to delete?')">
+                    DELETE
+                </a>
 
-                            <td>
-                                <a href="delete_portfolio.php?id_portfolio=<?php echo $tampil->id_portfolio; ?>" class="btn btn-danger" onclick="return confirm('Confirm to delete?')">DELETE</a>
-
-                                <a href="update_form_portfolio.php?id_portfolio=<?php echo $tampil->id_portfolio; ?>" class="btn btn-success">UPDATE</a>
-                            </td>
-                        </tr>
-
-                        <?php endwhile ?>
-
-                        </tbody>
+                <a href="update_form_portfolio.php?id_portfolio=<?php echo $tampil->id_portfolio; ?>" 
+                   class="btn btn-success">
+                    UPDATE
+                </a>
+            </td>
+        </tr>
+    <?php endwhile; ?>
+</tbody>
                     </table>
 
                 </div>

@@ -49,6 +49,8 @@ form_reference.php, dengan cara berulang yang sama-->
                         </div>
                        
                        <button type="submit"  class="btn btn-primary">Submit</button>
+
+                        <button type="reset" class="btn btn-primary">Reset</button>
                      </form>
                     <!-- content end -->
 

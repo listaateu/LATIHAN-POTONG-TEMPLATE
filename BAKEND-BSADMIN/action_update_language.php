@@ -1,44 +1,49 @@
+<!-- from file update_form_language.php, we copy the form and paste it here in action_update_language.php -->
 <?php
 include "connection.php";
 
-$id_sidebar_photo = $_POST['id_sidebar_photo'];
+// $vnama utk menyimpan data sedangkan $_POST['nama'] utk menerima inputan dari form_language.php
+$id_language = $_POST['id_language'];
+$Vlanguage = $_POST['bahasa'];
+$vflagimage = time() .".jpg";
 
-$namaimage = time() .".jpg";
-
-$path= "foto/";
+// untuk menyimpan file foto yang nanti ditambahkan dari form_language.php
+$path = "fotobende/";
 
 // UPDATE  tanpa foto. yg mau di update adlh keterangan saja selain foto. maka kita buat kondisi IF ELSE
-// if (empty($_FILES['img']['name'])) {
-   // $sql_update_sidebar_photo_no_image = mysqli_query($koneksi, "UPDATE sidebar_photo SET 
-   // sidebar_photo='$namaimage' WHERE id_sidebar_photo='$id_sidebar_photo'");
-   // header("Location:tabel_sidebar_photo.php");
-//  else {
+if (empty($_FILES['flag']['name'])) {
+    $sql_update_language_no_image = mysqli_query($koneksi, "UPDATE language SET 
+    bahasa='$Vlanguage' WHERE id_language='$id_language'");
+    header("Location:tabel_language.php");
+} else {
     // UPDATE dengan foto. yg mau di update adlh keterangan dan foto. maka kita buat kondisi IF ELSE
     // untuk mengupload foto digunakan fungsi move_uploaded_file() 
     // upload foto baru yg disesuaikan dari file update_form_portfolio.php
-    move_uploaded_file($_FILES['sidebar_photo']['tmp_name'], $path . $namaimage);
+    move_uploaded_file($_FILES['flag']['tmp_name'], $path . $vflagimage);
     
     // hapus foto lama start
-    $imgsidebar_photo = mysqli_query($koneksi, "SELECT * FROM sidebar_photo WHERE
-    id_sidebar_photo IN ('$id_sidebar_photo')");
-   
+    $fotobendera = mysqli_query($koneksi, "SELECT * FROM language WHERE id_language IN ('$id_language')");
 
     // tampilkan foto
-    $img= mysqli_fetch_object($imgsidebar_photo);
-    $path = "foto/";
+    $vflag = mysqli_fetch_object($fotobendera);
+    $path = "fotobende/";
 
     // is_file gunanya untuk mengecek apakah file ada atau tidak. jika ada maka akan dihapus\
     // is_file() untuk mengecek terlebih dahulu file di folder foto sebelum di hapus
     // unlink() untuk menghapus file foto lama di folder foto
-    if (is_file($path . $img->sidebar_photo)) {
-        unlink($path . $img->sidebar_photo);
+    if (is_file($path . $vflag->flag)) {
+        unlink($path . $vflag->flag);
     }
     // hapus foto lama end
 
     // update dgn menggunakan foto dgn menambahkan img='$namimage'
-    $sql_update_sidebar_photo_no_img  = mysqli_query($koneksi, "UPDATE sidebar_photo SET
-    sidebar_photo='$namaimage' WHERE id_sidebar_photo='$id_sidebar_photo'");
+    $sql_update_language_image = mysqli_query(
+    $koneksi,
+    "UPDATE language SET
+    bahasa='$Vlanguage',
+    flag='$vflagimage'
+    WHERE id_language='$id_language'");
 
     header("Location:tabel_language.php");
-    
+    }
 ?>
