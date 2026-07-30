@@ -58,7 +58,7 @@ $select_sidebar_photo = mysqli_query($koneksi, "SELECT * FROM sidebar_photo ORDE
                     <tr> 
 
                         <td>
-                            <img src="foto/<?php echo $tampil->sidebar_photo; ?>" alt="" width="500">
+                            <img src="foto/<?php echo $tampil->sidebar_photo; ?>" alt="" width="200">
                         </td>
                         <td>
                             <!-- step two: -->
