@@ -10,6 +10,15 @@ $select_portfolio = mysqli_query($koneksi,"SELECT * FROM portfolio ORDER BY id_p
 
 ?>
 
+<?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
+
 <?php include "header.php" ?>
 
 <body id="page-top">
@@ -53,7 +62,7 @@ $select_portfolio = mysqli_query($koneksi,"SELECT * FROM portfolio ORDER BY id_p
             </th>
 
             <td>
-                <img src="foto/<?php echo $tampil->img; ?>" width="150" height="300" style="object-fit: cover;">
+                <img src="foto/<?php echo $tampil->img; ?>" width="150" height="100" style="object-fit: cover;">
             </td>
 
             <td>

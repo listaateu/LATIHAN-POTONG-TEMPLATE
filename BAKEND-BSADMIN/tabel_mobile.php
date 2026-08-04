@@ -4,6 +4,15 @@ include "connection.php";
 $select_mobile = mysqli_query($koneksi, "SELECT * FROM mobile ORDER BY id_mobile DESC");
 ?>
 
+<?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
+
 <?php include "header.php" ?>
 
 <body id="page-top">

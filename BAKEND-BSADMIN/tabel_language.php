@@ -6,6 +6,15 @@ $select_language = mysqli_query(
     "SELECT * FROM language ORDER BY id_language DESC");
 ?>
 
+<?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
+
 <?php include "header.php" ?>
 
 <body id="page-top">

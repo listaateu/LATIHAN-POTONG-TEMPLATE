@@ -4,6 +4,15 @@ include "connection.php";
 $select_education = mysqli_query($koneksi, "SELECT*FROM education ORDER BY id_education DESC");
 ?>
 
+<?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
+
 <?php include "header.php" ?>
 
 <body id="page-top">

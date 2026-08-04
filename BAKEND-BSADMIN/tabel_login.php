@@ -6,6 +6,15 @@ $select_login = mysqli_query(
     $koneksi,
     "SELECT * FROM login ORDER BY id_login DESC");
     ?>
+
+    <?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
     
     <?php include "header.php" ?>
 

@@ -5,6 +5,15 @@ $select_reference = mysqli_query($koneksi, "SELECT*FROM reference ORDER BY id_re
 
 ?>
 
+<?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
+
 <?php include "header.php" ?>
 
 <body id="page-top">

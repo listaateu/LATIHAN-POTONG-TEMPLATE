@@ -2,33 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Curriculum Vitae of Lista</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Curriculum Vitae of Lista</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Vendor CSS Files -->
-  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
   * Template Name: iPortfolio
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
   * Updated: Jun 29 2024 with Bootstrap v5.3.3
@@ -36,138 +39,319 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
-  <!-- link icon yg didapat dari devicon.dev --> 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.15.1/devicon.min.css">
+    <!-- link icon yg didapat dari devicon.dev -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.15.1/devicon.min.css">
 
-<!-- tooltip start -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
-    integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- tooltip start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+        integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <style>
-    #hero:before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1;
+    <style>
+    /* 1. Paksa menu dan list rata kiri */
+    .navmenu ul,
+    .navmenu ul li {
+        list-style: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: left !important;
     }
-  </style>
+
+    /* 2. Atur susunan Icon & Teks sejajar ke samping di pinggir kiri */
+    .navmenu a,
+    .navmenu a:focus {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        /* Rata kiri */
+        padding: 10px 15px !important;
+        color: #a8a9b4 !important;
+        text-decoration: none !important;
+    }
+
+    /* 3. Rapikan icon biar gak ada lingkaran/jendol biru latar belakang */
+    .navmenu a i,
+    .navmenu a .navicon {
+        background: transparent !important;
+        /* Hilangkan lingkaran biru/abu */
+        font-size: 20px !important;
+        margin-right: 10px !important;
+        /* Jarak antara icon dan teks */
+        width: auto !important;
+        height: auto !important;
+    }
+
+    /* 4. Efek pas menu di-hover / aktif */
+    .navmenu a:hover,
+    .navmenu .active {
+        color: #fff !important;
+    }
+
+    .navmenu a:hover i,
+    .navmenu .active i {
+        color: #149ddd !important;
+        /* Icon berubah biru terang pas ditunjuk */
+    }
+
+    /* Pengaturan area Hero Section */
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        padding: 80px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Mengatur foto agar memenuhi background Hero */
+    .hero img {
+        position: absolute;
+        inset: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    /* Lapisan gelap tipis di atas foto supaya tulisan putihnya terbaca jelas */
+    .hero:before {
+        content: "";
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+    }
+
+    /* Posisi tulisan berada di paling depan */
+    .hero .container {
+        position: relative;
+        z-index: 3;
+    }
+
+    .hero h2 {
+        margin: 0;
+        font-size: 64px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .hero p {
+        margin: 5px 0 0 0;
+        font-size: 26px;
+        color: #fff;
+    }
+
+    .portfolio .portfolio-wrap {
+        transition: 0.3s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 8px;
+    }
+
+    .portfolio .portfolio-wrap::before {
+        content: "";
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        transition: all ease-in-out 0.3s;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    .portfolio .portfolio-wrap .portfolio-links {
+        opacity: 0;
+        left: 0;
+        right: 0;
+        top: calc(50% - 18px);
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .portfolio .portfolio-wrap .portfolio-links a {
+        color: #fff;
+        font-size: 24px;
+        background: #149ddd;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        transition: 0.3s;
+        margin: 0 2px;
+        text-decoration: none;
+    }
+
+    .portfolio .portfolio-wrap .portfolio-links a:hover {
+        background: #37b3ed;
+    }
+
+    .portfolio .portfolio-wrap:hover::before,
+    .portfolio .portfolio-wrap:hover .portfolio-links {
+        opacity: 1;
+    }
+
+    #header {
+        position: fixed !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 300px !important;
+        height: 100vh !important;
+        display: flex !important;
+        z-index: 9999 !important;
+        background: #040b14 !important;
+    }
+    </style>
 </head>
-    
-<body>
-  <!-- LETAK PEMNGGGIALAN DATA DI BEKEND MENGGGUNAKA N START HERE -->
-  <?php
+
+<body class="index-page">
+
+    <!-- LETAK PEMANGGILAN DATA DI BACKEND MENGGUNAKAN START HERE -->
+    <?php
   include "../BAKEND-BSADMIN/connection.php";
   // FROM "profile" di bwh ini adl nama tabel di dlm database
   $tampil_profile = mysqli_query($koneksi, "SELECT * FROM profile");
   $p = mysqli_fetch_object($tampil_profile);
   ?>
 
-  <!--- ==== Mobile nav toggle button === -->
-  <i class="header-toggle bi bi-list d-xl-none"></i>
-   
-  <!-- ==== header ==== -->
-  <header id="header">
-    <div class="d-flex flex-coloumn">
+    <!-- ==== Mobile nav toggle button ==== -->
+    <i class="header-toggle bi bi-list d-xl-none"></i>
 
-    <div class="profile">
-      <!-- menampilkan data foto sidebAR START -->
-       <?php 
+    <!-- ==== header ==== -->
+    <header id="header" class="header dark-background d-flex flex-column">
+
+        <div class="profile">
+            <!-- menampilkan data foto sideBAR START -->
+            <?php
+      include "../BAKEND-BSADMIN/connection.php";
+      // FROM profile di bwh ini adl nama tabel di dlm database
+      $tampil_sidebar_photo = mysqli_query($koneksi, "SELECT * FROM sidebar_photo");
+      $sb = mysqli_fetch_object($tampil_sidebar_photo);
+      ?>
+            <?php 
        include "../BAKEND-BSADMIN/connection.php";
        // FROM profile di bwh ini adl nama tabel di dlm database
        $tampil_sidebar_photo = mysqli_query($koneksi, "SELECT * FROM sidebar_photo");
        $sb = mysqli_fetch_object($tampil_sidebar_photo);
        ?>
-       <!-- end -->
+            <!-- end -->
 
-      <img src="../BAKEND-BSADMIN/foto/<?php echo $sb->sidebar_photo ?>" alt="" class="img-fluid rounded-circle">
-      <!-- <h1 class="text-light"><a href="index.html">Alex Smith</a><h1> --> 
-      <h1 class="text-light"><a href="index.php"><?php echo $p->nama ?></a></h1>
-    </div>
+            <div class="profile-img">
+                <img src="../BAKEND-BSADMIN/foto/<?php echo $sb->sidebar_photo ?>" alt="" style="width:
+ 160px; height: 160px; object-fit: cover; border: 8px solid rgba(255, 255, 255, 0.15);" class="rounded-circle">
+            </div>
 
-    <div class="social-links mt-3 text-center">
-     <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> --> 
-      <a href="<?php echo $p->linkedin ?>" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
-    
+            <h1 class="sitename"><a href="index.php"
+                    style="color: #fff; text-decoration: none;"><?php echo $p->nama ?></a></h1>
 
-    <nav id="navbar" class="nav-menu navbar">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i>Home</a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> Overview</a></li>
-        <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-user"></i> Proficiency</a></li>
-        <li><a href="#education" class="nav-link scrollto"><i class="bx bx-file-blank"></i> Education</a></li>
-         <li><a href="#experience" class="nav-link scrollto"><i class="bx bx-file-blank"></i> Experience</a></li>
-        <li><a href="#portfolio"  class="nav-link scrollto"><i class="bx bx-book-content"></i> Portfolio</a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> Referees</a></li>
-       <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> contact</a></li> -->
-      </ul>
-    </nav><!-- .nav-menu -->
-  </div>
-  </header><!-- end header --> 
+            <div class="social-links mt-3 text-center">
+                <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+
+                <!-- UBAH BAGIAN DI BAWAH INI -->
+                <a href="https://www.instagram.com/lista.ateu/" target="_blank" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="#" class="skype"><i class="bi bi-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+                    <li><a href="#about"><i class="bi bi-person"></i>Overview</a></li>
+                    <li><a href="#skills"><i class="bi bi-file-earmark-text navicon"></i>Proficiency</a></li>
+                    <li><a href="#education"><i class="bi bi-file-earmark navicon"></i>Education</a></li>
+                    <li><a href="#experience"><i class="bi bi-images navicon"></i>Experience</a></li>
+                    <li><a href="#portfolio"><i class="bi bi-hdd-stack navicon"></i>Portfolio</a></li>
+                    <li><a href="#services"><i class="bi bi-envelope navicon"></i>Referees</a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+        </div>
+    </header><!-- end header -->
+
 
     <!-- Hero Section -->
-    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-      <div class="hero-container" data-aos="fade-in">
-        <h2>Lista</h2>
-        <p>Saya<span class="typed" data-typed-items="bekerja keras, ramah, mudah bergaul, kreatif "></span></p>
-      </div>
-    </section><!-- / end Hero Section -->
+    <!-- Contoh kodingan hero kamu -->
+    <section id="hero" class="hero section dark-background">
 
-      <main id="main">
+        <img src="../BAKEND-BSADMIN/foto/<?php echo $sb->sidebar_photo; ?>" alt="">
+        <!-- TAMBAHKAN style="padding-left: 120px;" DI BAGIAN CONTAINER INI -->
+        <div class="container" style="padding-left: 120px;" data-aos="fade-up" data-aos-delay="100">
+            <h2><?php echo $p->nama; ?></h2>
+            <p>Saya <span class="typed" data-typed-items="Designer, Developer, Freelancer">Freelancer</span></p>
+        </div>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
+    </section><!-- /Hero Section -->
 
-      <!-- Section Title -->
-      <div class="section-title">
-        <h2>Overview</h2>
-       <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+    <main id="main">
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <!-- Section Title -->
+                <div class="section-title">
+                    <h2>OVERVIEW</h2>
+                    <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
         Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-        Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --> 
-        <p style="text-align:justify;"><?php echo $p->about; ?></p> <br>
+        Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+                    <p style="text-align:justify;"><?php echo $p->about; ?></p> <br>
 
-      </div><!-- End Section Title -->
+                </div><!-- End Section Title -->
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="../BAKEND-BSADMIN/foto/<?php echo $sb->sidebar_photo ?>" class="img-fluid" alt="" width="350">
-          </div>
-          <div class="col-lg-8  pt-4 pt-lg-0 content" data aos="fade-left">
-            <!-- <h2>UI/UX Designer &amp; Web Developer.</h2> -->
-             <div class="section-title">
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="../BAKEND-BSADMIN/foto/<?php echo $sb->sidebar_photo ?>" class="img-fluid" alt=""
+                            width="350">
+                    </div>
+                    <div class="col-lg-8  pt-4 pt-lg-0 content" data aos="fade-left">
+                        <!-- <h2>UI/UX Designer &amp; Web Developer.</h2> -->
+                        <div class="section-title">
 
-              <h2> INFORMASI PRIBADI</h2>
-             </div>
-            <!-- <p class="fst-italic py-3">
+                            <h2> INFORMASI PRIBADI</h2>
+                        </div>
+                        <!-- <p class="fst-italic py-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
-            </p> --> 
-            <br>
-            <div class="row">
-              <div class="col-lg">
-                <ul>
-                 <!--  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><?php echo $p->website ?></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><?php echo $p->phone ?></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Address:</strong> <span><?php echo $p->address ?>/span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email;</strong> <span><?php echo $p->email ?>/span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span><?php echo $p->nationality ?>/span></li>
-                </ul>
-              </div>
+            </p> -->
+                        <br>
+                        <div class="row">
+                            <div class="col-lg">
+                                <ul>
+                                    <!--  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                                        <span><?php echo $p->website ?></span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                                        <span><?php echo $p->phone ?></span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Address:</strong>
+                                        <span><?php echo $p->address ?></span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                        <span><?php echo $p->email ?></span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong>
+                                        <span><?php echo $p->nationality ?></span>
+                                    </li>
+                                </ul>
+                            </div>
 
-              <!-- <div class="col-lg-6">
+                            <!-- <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
@@ -175,24 +359,24 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>-->
-            </div>
-            <!-- <p class="py-3">
+                        </div>
+                        <!-- <p class="py-3">
               Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
               Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
             </p> -->
-          </div>
-        </div>
+                    </div>
+                </div>
 
-      </div>
+            </div>
 
-    </section><!-- / End About Section -->
+        </section><!-- / End About Section -->
 
-    <!-- facts Section -->
-    <section id="facts" class="facts">
+        <!-- facts Section -->
+        <section id="facts" class="facts">
 
-      <div class="container">
+            <div class="container">
 
-       <!--  <div class="row gy-4">
+                <!--  <div class="row gy-4">
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
@@ -228,145 +412,153 @@
 
         </div> -->
 
-      </div>
+            </div>
 
-    </section><!-- /End Facts Section -->
+        </section><!-- /End Facts Section -->
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills section-bg">
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-bg">
 
-      <!-- Section Title -->
-      <div class="container">
-      <div class="section-title mb-4" style="color: gray;">
-        <h2>Keterampilan IT </h2>
-        <h6 style="color: gray"> PROGRAMMING LANGUAGE & FRAMEWORKS </h6>
-        <p>
-          <h4 class="title"> </h4>
-        <p class="description"> <?php include "../BAKEND-BSADMIN/connection.php";
+            <!-- Section Title -->
+            <div class="container">
+                <div class="section-title mb-4" style="color: black;">
+                    <h2>Keterampilan IT </h2>
+                    <h6 style="color: gray"> PROGRAMMING LANGUAGE & FRAMEWORKS </h6>
+                    <p>
+                    <h4 class="title"> </h4>
+                    <p class="description"> <?php include "../BAKEND-BSADMIN/connection.php";
                                 // profile adl nama tabel di database
                                 $tampil_mobile = mysqli_query($koneksi, "SELECT * FROM mobile");
                                 while ($m = mysqli_fetch_object($tampil_mobile)):
                                 ?>
-           <!-- <i style="color: grey;font-size:35px" class="<?php echo $m->icon; ?> m-3></i> -->
-           <i style="font-size:35px" class="icon-with-tooltip <?php echo $m->icon; ?> colored m-3"
-           data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $m->nama ?>"></i>
-           <script>
-            document.addEventListener('DOMContentLoaded', function(){
-              var tooltips = new bootstrap.Tooltip(document.querySelector('.<?php echo $m->icon ?>'));
-            })
-           </script>
-          <?php endwhile; ?>
-        </p>
-      </p>
-    </div>
+                        <!-- <i style="color: grey;font-size:35px" class="<?php echo $m->icon; ?> m-3></i> -->
+                        <i style="font-size:35px" class="icon-with-tooltip <?php echo $m->icon; ?> colored m-3"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $m->nama ?>"></i>
+                        <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var tooltips = new bootstrap.Tooltip(document.querySelector(
+                                '.<?php echo $m->icon ?>'));
+                        })
+                        </script>
+                        <?php endwhile; ?>
+                    </p>
+                    </p>
+                </div>
 
-      <div class="section-title mb-4">
-        <h6 style="color:gray">FAMILIAR WITH</h6>
-        <p>
-          <h4 class="title"></h4>
-          <p class="description"> <?php include "../BAKEND-BSADMIN/connection.php";
+                <div class="section-title mb-4">
+                    <h6 style="color:gray">FAMILIAR WITH</h6>
+                    <p>
+                    <h4 class="title"></h4>
+                    <p class="description"> <?php include "../BAKEND-BSADMIN/connection.php";
                                 // profile adl nama tabel di database
                                 $tampil_familiar = mysqli_query($koneksi, "SELECT * FROM familiar");
                                 while ($m = mysqli_fetch_object($tampil_familiar)):
                                 ?>
-           <!-- <i style="color: grey;font-size:35px" class="<?php echo $m->icon; ?> m-3></i> -->
-           <i style="font-size:35px" class="icon-with-tooltip <?php echo $m->icon; ?> colored m-3"
-           data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $m->nama ?>"></i>
-           
-           <!-- untuk memunculkan TOOLTIP per icon dibutuhkan JaaScript as below -->
-           <!-- JavaScript start -->
-          <script>
-            document.addEventListener('DOMContentLoaded', function(){
-              var tooltips = new bootstrap.Tooltip(document.querySelector('.<?php echo $m->icon ?>'));
-            })
-          </script>
-          <!-- java script end -->
-          <!-- Next, we'll scrolldown to end of the body --> 
-          <?php endwhile; ?>
-        </p>
-      </p>
-    </div>
-    <div class="section-title mb-4" style="color: grey;">
-      <h6> TOOLS & PLATFORMS </h6>
-      <p>
-        <h4 class="title"> </h4>
-         <p class="description"> <?php include "../BAKEND-BSADMIN/connection.php";
+                        <!-- <i style="color: grey;font-size:35px" class="<?php echo $m->icon; ?> m-3></i> -->
+                        <i style="font-size:35px" class="icon-with-tooltip <?php echo $m->icon; ?> colored m-3"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $m->nama ?>"></i>
+
+                        <!-- untuk memunculkan TOOLTIP per icon dibutuhkan JaaScript as below -->
+                        <!-- JavaScript start -->
+                        <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var tooltips = new bootstrap.Tooltip(document.querySelector(
+                                '.<?php echo $m->icon ?>'));
+                        })
+                        </script>
+                        <!-- java script end -->
+                        <!-- Next, we'll scrolldown to end of the body -->
+                        <?php endwhile; ?>
+                    </p>
+                    </p>
+                </div>
+                <div class="section-title mb-4" style="color: grey;">
+                    <h6> TOOLS & PLATFORMS </h6>
+                    <p>
+                    <h4 class="title"> </h4>
+                    <p class="description"> <?php include "../BAKEND-BSADMIN/connection.php";
                                 // profile adl nama tabel di database
                                 $tampil_tools = mysqli_query($koneksi, "SELECT * FROM tools");
                                 while ($m = mysqli_fetch_object($tampil_tools)):
                                 ?>
-           <!-- <i style="color: grey;font-size:35px" class="<?php echo $m->icon; ?> m-3></i> -->
-           <i style="font-size:35px" class="icon-with-tooltip <?php echo $m->icon; ?> colored m-3"
-           data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $m->nama ?>"></i>
-          <script>
-            document.addEventListener('DOMContentLoaded', function(){
-              var tooltips = new bootstrap.Tooltip(document.querySelector('.<?php echo $m->icon ?>'));
-            })
-          </script>
-          <?php endwhile; ?>
-        </p>
-      </p>
-    </div>
+                        <!-- <i style="color: grey;font-size:35px" class="<?php echo $m->icon; ?> m-3></i> -->
+                        <i style="font-size:35px" class="icon-with-tooltip <?php echo $m->icon; ?> colored m-3"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $m->nama ?>"></i>
+                        <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var tooltips = new bootstrap.Tooltip(document.querySelector(
+                                '.<?php echo $m->icon ?>'));
+                        })
+                        </script>
+                        <?php endwhile; ?>
+                    </p>
+                    </p>
+                </div>
 
-    <div class="section-title mt-4">
-       <h2> LANGUAGE PROFICIENTY </h2>
-       <?php
+                <div class="section-title mt-4">
+                    <h2> LANGUAGE PROFICIENTY </h2>
+                    <?php
        include "../BAKEND-BSADMIN/connection.php";
 
        $tampil_language = mysqli_query($koneksi, "SELECT * FROM language ORDER BY id_language DESC");
        while ($l = mysqli_fetch_object($tampil_language)):
        ?>
-    <div class="row">
-        <div class="col">
-            <h6 class="skill" style="color:grey"><?= $l->bahasa ?></h6>
-        </div>
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="skill" style="color:grey"><?= $l->bahasa ?></h6>
+                        </div>
 
-        <div class="col">
-            <img src="../BAKEND-BSADMIN/fotobende/<?php echo $l->flag ?>" alt="" class="val mb-3" width="40px">
-        </div>
-    </div>
-<?php endwhile; ?>
-</div>
+                        <div class="col">
+                            <img src="../BAKEND-BSADMIN/fotobende/<?php echo $l->flag ?>" alt="" class="val mb-3"
+                                width="150px">
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                </div>
 
-       <div class="section-title mt-4">
-        <h2>ADDITIONAL SKILLS</h2>
-        <div class="row skils-content">
-          <div class="col-lg" data-aos="fade-up">
-          <!-- membuat tampilan skill menggunakan perulangan WHILE -->
-           <?php
+                <div class="section-title mt-4">
+                    <h2>ADDITIONAL SKILLS</h2>
+                    <div class="row skils-content">
+                        <div class="col-lg" data-aos="fade-up">
+                            <!-- membuat tampilan skill menggunakan perulangan WHILE -->
+                            <?php
        include "../BAKEND-BSADMIN/connection.php";
        
        $tampil_skill = mysqli_query($koneksi, "SELECT * FROM skill ORDER BY id_skill DESC");
        while ($s = mysqli_fetch_object($tampil_skill)):
        ?>
-       <span><?php echo $s->nama_skill ?> </span><br>
-       <?php endwhile; ?>
-       <!-- perulangan end -->
-        <!-- icon strat --><!-- ambil icon dev dan link nya di letakan di <HEAD> atas -->
+                            <span><?php echo $s->nama_skill ?> </span><br>
+                            <?php endwhile; ?>
+                            <!-- perulangan end -->
+                            <!-- icon strat -->
+                            <!-- ambil icon dev dan link nya di letakan di <HEAD> atas -->
 
 
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
+                            <!--div class="progress">
+                                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><-- End Skills Item -->
 
-            <!--div class="progress">
+                            <!--div class="progress">
               <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </div--><!-- End Skills Item -->
+            </div-->
+                            <!-- End Skills Item -->
 
-            <!--div class="progress">
+                            <!--div class="progress">
               <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </div--><!-- End Skills Item -->
+            </div-->
+                            <!-- End Skills Item -->
 
-          <!--/div>
+                            <!--/div>
 
           <div class="col-lg-6">
 
@@ -375,124 +567,128 @@
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </div--><!-- End Skills Item -->
+            </div-->
+                            <!-- End Skills Item -->
 
-            <!--div class="progress">
+                            <!--div class="progress">
               <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </div--><!-- End Skills Item -->
+            </div-->
+                            <!-- End Skills Item -->
 
-            <!--div class="progress">
+                            <!--div class="progress">
               <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </div--><!-- End Skills Item -->
+            </div-->
+                            <!-- End Skills Item -->
 
-          </div>
+                        </div>
 
-        </div>
+                    </div>
 
-      </div>
+                </div>
 
-    </section><!-- /Skills Section -->
+        </section><!-- /Skills Section -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-      <div class="container">
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
+            <div class="container">
 
-      <div class="row">
-        <div class="col-lg" data-aos="fade-up">
-          <div class="section-title">
-    <h2 id="education">EDUCATION</h2>
-</div>
+                <div class="row">
+                    <div class="col-lg" data-aos="fade-up">
+                        <div class="section-title">
+                            <h2 id="education">EDUCATION</h2>
+                        </div>
 
-<?php
+                        <?php
 include "../BAKEND-BSADMIN/connection.php";
 
 $tampil_education = mysqli_query($koneksi, "SELECT * FROM education ORDER BY id_education DESC");
 while ($e = mysqli_fetch_object($tampil_education)):
 ?>
 
-<div class="resume-item">
-    <div class="d-flex justify-content-between align-items-start">
-        <div>
-            <h4><?php echo $e->nama_jurusan; ?></h4>
-            <p><em><?php echo $e->tempat_belajar; ?></em></p>
-            <p><?php echo $e->deskripsi; ?></p>
-        </div>
+                        <div class="resume-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4><?php echo $e->nama_jurusan; ?></h4>
+                                    <p><em><?php echo $e->tempat_belajar; ?></em></p>
+                                    <p><?php echo $e->deskripsi; ?></p>
+                                </div>
 
-        <h5><?php echo $e->tahun_belajar; ?></h5>
-    </div>
-</div>
+                                <h5><?php echo $e->tahun_belajar; ?></h5>
+                            </div>
+                        </div>
 
-<?php endwhile; ?>
+                        <?php endwhile; ?>
 
-       <div class="section-title mt-4">
-    <h2 id="training">TRAINING</h2>
-</div>
+                        <div class="section-title mt-4">
+                            <h2 id="training">TRAINING</h2>
+                        </div>
 
-<?php
+                        <?php
 include "../BAKEND-BSADMIN/connection.php";
 
 $tampil_training = mysqli_query($koneksi, "SELECT * FROM training ORDER BY id_training DESC");
 while ($e = mysqli_fetch_object($tampil_training)):
 ?>
 
-<div class="resume-item">
-    <div class="d-flex justify-content-between align-items-start">
-        <div>
-            <h4><?php echo $e->nama_training; ?></h4>
-            <p><em><?php echo $e->tempat_training; ?></em></p>
-            <p><?php echo $e->deskripsi; ?></p>
-        </div>
+                        <div class="resume-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4><?php echo $e->nama_training; ?></h4>
+                                    <p><em><?php echo $e->tempat_training; ?></em></p>
+                                    <p><?php echo $e->deskripsi; ?></p>
+                                </div>
 
-        <h5><?php echo $e->tahun_training; ?></h5>
-    </div>
-</div>
+                                <h5><?php echo $e->tahun_training; ?></h5>
+                            </div>
+                        </div>
 
-<?php endwhile; ?>
+                        <?php endwhile; ?>
 
-       <div class="section-title mt-5">
-    <h2 id="experience">EXPERIENCE</h2>
-</div>
+                        <div class="section-title mt-5">
+                            <h2 id="experience">EXPERIENCE</h2>
+                        </div>
 
-<?php
+                        <?php
 include "../BAKEND-BSADMIN/connection.php";
 
 $tampil_job = mysqli_query($koneksi, "SELECT * FROM job ORDER BY id_job DESC");
 while ($l = mysqli_fetch_object($tampil_job)):
 ?>
 
-<div class="resume-item">
-    <div class="d-flex justify-content-between align-items-start">
-        <div>
-            <h4><?php echo $l->nama_pekerjaan; ?></h4>
-            <p><em><?php echo $l->tempat_bekerja; ?></em></p>
-            <ul>
-                <li><?php echo $l->deskripsi; ?></li>
-            </ul>
-        </div>
+                        <div class="resume-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h4><?php echo $l->nama_pekerjaan; ?></h4>
+                                    <p><em><?php echo $l->tempat_bekerja; ?></em></p>
+                                    <ul>
+                                        <li><?php echo $l->deskripsi; ?></li>
+                                    </ul>
+                                </div>
 
-        <h5><?php echo $l->tahun_bekerja; ?></h5>
-    </div>
-</div>
+                                <h5><?php echo $l->tahun_bekerja; ?></h5>
+                            </div>
+                        </div>
 
-<?php endwhile; ?>
-       </div>
-       </div>
-       </div>
-       </section>
+                        <?php endwhile; ?>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <!-- Section Title -->
-      <!--div class="container section-title" data-aos="fade-up">
+        <!-- Section Title -->
+        <!--div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div--><!-- End Section Title -->
+      </div-->
+        <!-- End Section Title -->
 
-      <!--div class="container">
+        <!--div class="container">
 
         <div class="row">
 
@@ -507,24 +703,27 @@ while ($l = mysqli_fetch_object($tampil_job)):
                 <li>(123) 456-7891</li>
                 <li>alice.barkley@example.com</li>
               </ul>
-            </div--><!-- Edn Resume Item -->
+            </div-->
+        <!-- Edn Resume Item -->
 
-            <!--h3 class="resume-title">Education</h3>
+        <!--h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Master of Fine Arts &amp; Graphic Design</h4>
               <h5>2015 - 2016</h5>
               <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
               <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div--><!-- Edn Resume Item -->
+            </div-->
+        <!-- Edn Resume Item -->
 
-            <!--div class="resume-item">
+        <!--div class="resume-item">
               <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
               <h5>2010 - 2014</h5>
               <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
               <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div--><!-- Edn Resume Item -->
+            </div-->
+        <!-- Edn Resume Item -->
 
-          <!--/div>
+        <!--/div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
@@ -538,9 +737,10 @@ while ($l = mysqli_fetch_object($tampil_job)):
                 <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
                 <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
               </ul>
-            </div--><!-- Edn Resume Item -->
+            </div-->
+        <!-- Edn Resume Item -->
 
-            <!--div class="resume-item">
+        <!--div class="resume-item">
               <h4>Graphic design specialist</h4>
               <h5>2017 - 2018</h5>
               <p><em>Stepping Stone Advertising, New York, NY</em></p>
@@ -550,56 +750,75 @@ while ($l = mysqli_fetch_object($tampil_job)):
                 <li>Recommended and consulted with clients on the most appropriate graphic design</li>
                 <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
               </ul>
-            </div--><!-- Edn Resume Item -->
-
-          </div>
+            </div-->
+        <!-- Edn Resume Item -->
 
         </div>
 
-      </div>
+        </div>
 
-    </section><!-- /Resume Section -->
+        </div>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
+        </section><!-- /Resume Section -->
 
-      <!-- section title -->
-      <div class="section-title">
-        <h2>PORTFOLIO</h2>
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
 
-</div>
+                <!-- Section Title -->
+                <div class="section-title">
+                    <h2>PORTFOLIO</h2>
+                    <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+      Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+      ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+                </div>
 
-<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-  <?php
-include "../BAKEND-BSADMIN/connection.php";
+                <div class="row gy-4 gx-4 portfolio-container" data-aos="fade-up" data-aos-delay="100"> <?php
+  include "../BAKEND-BSADMIN/connection.php";
 
-$tampil_portfolio = mysqli_query($koneksi, "SELECT * FROM portfolio ORDER BY id_portfolio DESC");
-while ($l = mysqli_fetch_object($tampil_portfolio)):
-?>
-   <div class="col-lg-4 col-md-6 portfolio-item filter" style="width: 350px; object-fit:cover; height:350px;">
-    <div class="portfolio-wrap">
-       <img src="../BAKEND-BSADMIN/foto/<?php echo $l->img ?>" class="img-fluid" alt="">
-       <div class="portfolio-links">
-        <a href="../BAKEND-BSADMIN/foto<?php echo $l->img ?>" data-gallery="portfolioGallery"
-      class="portfolio-lighbox" title="<?php echo $l->judul_portfolio ?>"><i class="bx bx-plus"></i></a>
-      <a href="<?php echo $l->link ?>"title="More Details"><i class="bx bx-link"></i></a>
-      <a href="<?php echo trim($l->link); ?>" target="_blank" rel="noopener noreferrer" title="More Details">
-        <i class="bx bc-link"></i>
-        </a>
-</div>
-</div>
-</div>
-<?php endwhile; ?>
+  $tampil_portfolio = mysqli_query($koneksi, "SELECT * FROM portfolio ORDER BY id_portfolio DESC");
+  while ($l = mysqli_fetch_object($tampil_portfolio)) {
+  ?>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
 
+                            <!-- FOTO PORTFOLIO -->
+                            <img src="../BAKEND-BSADMIN/foto/<?php echo $l->img; ?>" class="img-fluid" alt=""
+                                style="width: 100%; height: 260px; object-fit: contain; background: #f8f9fa; display: block;">
 
-      <!-- Section Title -->
-      <!--div class="section-title">
+                            <!-- DUA IKON (PLUS + LINK INSTAGRAM) -->
+                            <div class="portfolio-links">
+
+                                <!-- 1. Ikon Plus (+) untuk Preview Gambar -->
+                                <a href="../BAKEND-BSADMIN/foto/<?php echo $l->img; ?>" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="<?php echo !empty($l->judul_portfolio) ? $l->judul_portfolio : 'Zoom Foto'; ?>">
+                                    <i class="bx bx-plus" style="font-size: 20px; line-height: 1;">+</i>
+                                </a>
+
+                                <!-- 2. Ikon Link (🔗) untuk Buka Instagram -->
+                                <a href="https://www.instagram.com/lista.ateu/" target="_blank"
+                                    rel="noopener noreferrer" title="Buka Instagram">
+                                    <i class="bx bx-link" style="font-size: 18px; line-height: 1;">🔗</i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <?php 
+  } 
+  ?>
+                </div>
+
+                <!-- Section Title -->
+                <!--div class="section-title">
         <h2>Portfolio</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div--><!-- End Section Title -->
+      </div-->
+                <!-- End Section Title -->
 
-      <!--div class="container">
+                <!--div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
@@ -609,9 +828,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
             <li data-filter=".filter-product">Product</li>
             <li data-filter=".filter-branding">Branding</li>
             <li data-filter=".filter-books">Books</li>
-          </ul--><!-- End Portfolio Filters -->
+          </ul-->
+                <!-- End Portfolio Filters -->
 
-          <!--div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <!--div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
@@ -623,9 +843,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -635,9 +856,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -647,9 +869,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -659,9 +882,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -671,9 +895,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -683,9 +908,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -695,9 +921,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -707,9 +934,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -719,9 +947,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -731,9 +960,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -743,9 +973,10 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+                <!-- End Portfolio Item -->
 
-            <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                <!--div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -755,45 +986,42 @@ while ($l = mysqli_fetch_object($tampil_portfolio)):
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div--><!-- End Portfolio Item -->
+            </div-->
+            </div>
+            </div>
+        </section>
 
-          </div><!-- End Portfolio Container -->
 
-        </div>
+        <!-- Services Section -->
+        <section id="services" class="services section" style="padding-bottom: 300px;">
+            <div class="container">
 
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-<!-- Services Section -->
-    <section id="services" class="services section">
-      <div class="container">
-
-      <!-- Section Title -->
-      <div class="section-title">
-        <h2>REFEREES</h2>
-        <!--p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <!-- Section Title -->
+                <div class="section-title">
+                    <h2>REFEREES</h2>
+                    <!--p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div><-- End Section Title -->
-</div>
+                </div>
 
-        <div class="row">
-          <?php
+                <div class="row">
+                    <?php
 include "../BAKEND-BSADMIN/connection.php";
 
 $tampil_reference = mysqli_query($koneksi, "SELECT * FROM reference ORDER BY id_reference DESC");
 while ($l = mysqli_fetch_object($tampil_reference)):
 ?>
 
-<div class="icon-box" data-aos="fade-up">
-  <div class="icon"><a href="tel:<?php echo $l->phone ?>" target="_blank"><i class="bi bi-telephone-fill"></i></a></div>
-  <!-- <h4 class="title"><a href="">-->
-    <h4 class="title"><?php echo $l->nama ?></h4>
-    <p class="description"><?php echo $l->perusahaan ?></p>
-</div>
-<?php endwhile ?>
-          
+                    <div class="icon-box" data-aos="fade-up">
+                        <div class="icon"><a href="tel:<?php echo $l->phone ?>" target="_blank"><i
+                                    class="bi bi-telephone-fill"></i></a></div>
+                        <!-- <h4 class="title"><a href="">-->
+                        <h4 class="title"><?php echo $l->nama ?></h4>
+                        <p class="description"><?php echo $l->perusahaan ?></p>
+                    </div>
+                    <?php endwhile ?>
 
-          <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+
+                    <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
@@ -802,7 +1030,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
           </div>
           <-- End Service Item -->
 
-          <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>
@@ -810,7 +1038,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
             </div>
           </div><-- End Service Item -->
 
-          <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
@@ -818,7 +1046,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
             </div>
           </div><-- End Service Item -->
 
-          <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
@@ -826,7 +1054,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
             </div>
           </div><-- End Service Item -->
 
-          <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                    <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
             <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
@@ -834,7 +1062,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
             </div>
           </div><-- End Service Item -->
 
-          <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                    <!--div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
             <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
@@ -842,24 +1070,24 @@ while ($l = mysqli_fetch_object($tampil_reference)):
             </div>
           </div><-- End Service Item -->
 
-        <!/div>
+                    <! /div>
 
-      </div>
+                </div>
 
-    </section><!-- /Services Section -->
+        </section><!-- /Services Section -->
 
-    <!--/section><-- /Services Section -->
+        <!--/section><-- /Services Section -->
 
-    <!-- Testimonials Section -->
-    <!--section id="testimonials" class="testimonials section light-background">
+        <!-- Testimonials Section -->
+        <!--section id="testimonials" class="testimonials section light-background">
 
       <-- Section Title -->
-      <!--div class="container section-title" data-aos="fade-up">
+        <!--div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><-- End Section Title -->
 
-      <!--div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!--div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
@@ -902,7 +1130,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
               </div>
             </div><-- End testimonial item -->
 
-            <!--div class="swiper-slide">
+        <!--div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -915,7 +1143,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
               </div>
             </div><-- End testimonial item -->
 
-            <!--div class="swiper-slide">
+        <!--div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -928,7 +1156,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
               </div>
             </div><-- End testimonial item -->
 
-            <!--div class="swiper-slide">
+        <!--div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -941,7 +1169,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
               </div>
             </div><-- End testimonial item -->
 
-            <!--div class="swiper-slide">
+        <!--div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -954,7 +1182,7 @@ while ($l = mysqli_fetch_object($tampil_reference)):
               </div>
             </div><-- End testimonial item -->
 
-          <!--/div>
+        <!--/div>
           <div class="swiper-pagination"></div>
         </div>
 
@@ -962,131 +1190,50 @@ while ($l = mysqli_fetch_object($tampil_reference)):
 
     </section><-- /Testimonials Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    </main>
 
-        <div class="row gy-4">
+    <footer id="footer" class="footer position-relative light-background">
 
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container">
+            <div class="copyright text-center ">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights
+                        Reserved</span></p>
             </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a
+                    href="https://bootstrapmade.com/tools/">DevTools</a>
+            </div>
         </div>
 
-      </div>
+    </footer>
 
-    </section><!-- /Contact Section -->
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
-  </main>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <footer id="footer" class="footer position-relative light-background">
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
 

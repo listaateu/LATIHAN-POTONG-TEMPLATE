@@ -7,7 +7,14 @@ $select_skill = mysqli_query(
     "SELECT * FROM skill ORDER BY id_skill DESC");
     ?>
 
-    
+    <?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
     
     <?php include "header.php" ?>
 

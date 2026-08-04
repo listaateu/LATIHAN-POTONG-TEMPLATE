@@ -4,6 +4,15 @@ include "connection.php";
 $select_profile = mysqli_query($koneksi, "SELECT*FROM profile");
 ?>
 
+<?php
+session_start();
+
+if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
+    header("location: login.php?pesan=belum_login");
+    exit();
+}
+?>
+
 <?php include "header.php" ?>
 
 <body id="page-top">
